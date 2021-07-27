@@ -20,6 +20,6 @@ $(document).ready(function() {
         });
     } else { // if product is not selected page is redirected to home
         //window.location.replace("/mcu-armoury/");
-        window.location.replace("/");
+        window.location.replace("/friends-gifs/");
     }
 });
