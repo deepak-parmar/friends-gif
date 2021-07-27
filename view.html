@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Know Your friends</title>
+    <title>GIFs from FRIENDS</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="asset/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script src="asset/main.js"></script>
+    
     <script>
         $(window).on('load', function () {
             $('#loader').fadeOut();
@@ -21,17 +22,13 @@
 </head>
 
 <body class="d-flex flex-row justify-content-center vh-100">
-    <div id="loader" class="position-absolute bg-dark vw-100 vh-100 d-flex justify-content-center align-items-center bg-light" style="position: absolute; width: 100wh; background-color: red; z-index: 999;">
+    <div id="loader" class="position-absolute bg-dark vw-100 vh-100 d-flex justify-content-center align-items-center bg-light" style="width: 100wh; z-index: 999;">
         <div class="spinner-border text-light" role="status"></div>
     </div>
     <header class="container d-flex flex-column justify-content-between align-items-center w-50 overflow-hidden text-light p-3">
-        <!-- <img src="images/bg-intro.gif" alt="" class="w-100 rounded"> -->
         <div class="title d-flex flex-column justify-content-center align-items-center p-5">
             <h5>GIFs from</h5>
-            <!-- <h2 class="h1" style="line-height: 1;">F.R.I.E.N.D.S.</h2> -->
         </div>
-
-        <!-- <h5 class="text-center" style="letter-spacing: 0;">GIFs of... dance, catchphrases, reactions from F.R.I.E.N.D.S.</h5> -->
 
         <footer class="align-self-center">
             Made by
@@ -41,7 +38,7 @@
         </footer>
     </header>
     <main class="container d-flex flex-column justify-content-top align-items-start p-5 h-100 text-light">
-        <a href="/" class="pb-4">◄ <span class="gif-title">Back to Home</span></a>
+        <a href="/friends-gifs" class="pb-4">◄ <span class="gif-title">Back to Home</span></a>
         
         <figure class="align-self-center mb-4">
             <img id="episode-gif" src="" width="365px" class="rounded">
@@ -56,9 +53,6 @@
 
                     <dt>Season</dt>
                     <dd id="episode-number"></dd>
-
-                    <!-- <dt>Plot</dt>
-                    <dd id="episode-plot"></dd> -->
                 </dl>
             </section>
 
