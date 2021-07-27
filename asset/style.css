@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Gabriel Weiss';
+    src: url(font/GABRWFFR.TTF);
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Gabriel Weiss';
+    background-color: #010100;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+a {text-decoration: none; color: #eeeeee;}
+a:hover {color: grey;}
+
+main {
+    overflow-y: scroll;
+    backdrop-filter: blur(150px);
+}
+
+main a img {
+    width: 265px;
+    margin: .5rem;
+    background-color: #222;
+    transition: .2s ease-in-out;
+    filter: grayscale(80%);
+}
+
+main a:hover img {
+    filter: hue-rotate(90deg);
+    transform: scale(104%);
+    box-shadow: 0 5px 10px #11111199;
+    filter: none;
+}
+
+h5 {
+    letter-spacing: .5rem;
+    margin-top: 5.5rem;
+    color: #eeeeee;
+    text-shadow: 2px 2px 1px #010100;
+    filter: blur(.5px);
+}
+
+header {
+    background: url(images/header-bg.gif) no-repeat top center;
+    background-color: #010100;
+}
+
+header h2 {
+    font-family: 'Gabriel Weiss';
+    letter-spacing: .5rem;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+dt, h6 {letter-spacing: .2rem;}
+
+dd, li {font-family: sans-serif; padding-bottom: .5rem;}
+
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+    font-size: 1.1rem;
+  }
+  
+ul li:before {
+    content: "#";
+    padding-right: 1rem;
+}
+
+footer {
+    letter-spacing: .2rem;
+}

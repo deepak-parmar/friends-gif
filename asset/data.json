@@ -1,0 +1,91 @@
+{
+    "1": {
+        "gif": "rachel-monica-double-take",
+        "episode": {
+            "number": "Season 01 Episode 17",
+            "title": "The One with Two Parts: Part 2"
+        },
+        "character": ["Rachel", "Monica", "Ross", "Chandler"],
+        "keyword": ["double-take", "turn-round", "turn", "who", "recognize", "surprise"]
+    },
+
+    "2": {
+        "gif": "monica-rachel-flick",
+        "episode": {
+            "number": "Season 02 Episode 13",
+            "title": "The One After the Superbowl: Part 02"
+        },
+        "character": ["Monica", "Rachel", "Phoebe"],
+        "keyword": ["flick", "flicking-head", "ouch", "frendly-fight", "fighting"]
+    },
+
+    "3": {
+        "gif": "chandler-joey-dance",
+        "episode": {
+            "number": "Season 03 Episode 12",
+            "title": "The One with the Embryos"
+        },
+        "character": ["Joey", "Chandler"],
+        "keyword": ["celebration", "dance", "winner", "victory", "david-hasselhoff"]
+    },
+
+    "4": {
+        "gif": "chandler-dance",
+        "episode": {
+            "number": "Season 04 Episode 12",
+            "title": "The One With All the Jealousy"
+        },
+        "character": ["Chandler", "Monica", "Rachel", "Phoebe"],
+        "keyword": ["show-off", "dance", "excited", "on-the-table"]
+    },
+
+    "5": {
+        "gif": "chandler-joey-entrance",
+        "episode": {
+            "number": "Season 03 Episode 12",
+            "title": "The One with the Embryos"
+        },
+        "character": ["Chandler", "Joey", "Ross"],
+        "keyword": ["entry", "no-regrets", "proud", "show-off", "make-an-entrance", "glorious"]
+    },
+
+    "6": {
+        "gif": "ross-rachel-phoebe-cheering",
+        "episode": {
+            "number": "Season 05 Episode 14",
+            "title": "The One Where Everybody Finds Out (A.K.A. The One Where Phoebe and Ross Find Out)"
+        },
+        "character": ["Ross", "Rachel", "Phoebe"],
+        "keyword": ["cheering", "weirdly-joyful", "enthusiastic", "exicitement", "jumping"]
+    },
+
+    "7": {
+        "gif": "friends-football",
+        "episode": {
+            "number": "Season 03 Episode 09",
+            "title": "The One with the Football"
+        },
+        "character": ["Joey", "Rachel", "Monica", "Phoebe"],
+        "keyword": ["football", "strangling", "american-football", "sports", "thanksgiving"]
+    },
+
+    "8": {
+        "gif": "rachel-amy-fight",
+        "episode": {
+            "number": "Season 09 Episode 08",
+            "title": "The One with Rachel's Other Sister"
+        },
+        "character": ["Rachel", "Amy", "Ross", "Chandler", "Monica"],
+        "keyword": ["girl-fight", "fighting", "siblings", "cartoony-fight", "go-girls", "sister"]
+    },
+
+    "9": {
+        "gif": "ross-chandler-joey-dancing",
+        "episode": {
+            "number": "Season 01 Episode 18",
+            "title": "The One With All the Poker"
+        },
+        "character": ["Ross", "Chandler", "Joey"],
+        "keyword": ["monkey", "dance", "the-lion-sleeps-tonight", "marcel", "beer", "pizza","party"]
+    }
+}
