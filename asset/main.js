@@ -18,8 +18,8 @@ $(document).ready(function() {
             $("body").css("background", "url(asset/images/" + data[url.searchParams.get("image")].gif + ".gif)");
             $("body").css("background-size", "cover");
         });
-    } else { // if product is not selected page is redirected to home
-        //window.location.replace("/mcu-armoury/");
+    } else {
+        // if image is not selected page is redirected to home
         window.location.replace("/friends-gifs/");
     }
 });
