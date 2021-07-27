@@ -12,6 +12,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script src="asset/main.js"></script>
+    <script>
+        $(window).on('load', function () {
+            $('#loader').fadeOut();
+            $('#loader').remove();
+        });
+    </script>
 </head>
 
 <body class="d-flex flex-row justify-content-center vh-100">

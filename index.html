@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="asset/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
+        $(window).on('load', function () {
+            $('#loader').fadeOut();
+            $('#loader').remove();
+        });
+
         $(document).ready(function() {
             $("main a").mouseover(function() {
                 $("body").css("background-image", "url("+ $(this).children("img").prop("src") + ")")
