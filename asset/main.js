@@ -2,7 +2,7 @@ $(document).ready(function() {
     url = new URL(window.location.href);
     if (url.searchParams.get("image")) {
         $.getJSON('asset/data.json', function(data) {
-            $("title").text(data[url.searchParams.get("image")].gif + " | GIFs from FRIENDS");
+            $("title").text(data[url.searchParams.get("image")].gif + " | GIFs from F·R·I·E·N·D·S");
             $("#episode-gif").prop("src", "asset/images/" + data[url.searchParams.get("image")].gif + ".gif");
             $("#episode-number").text(data[url.searchParams.get("image")].episode.number);
             $("#episode-title").text(data[url.searchParams.get("image")].episode.title);
